@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\DBoW2\DBoW2\BowVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\DBoW2\DBoW2\FORB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\DBoW2\DBoW2\FeatureVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\DBoW2\DBoW2\ScoringObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\DBoW2\DUtils\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\DBoW2\DUtils\Timestamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\DBoW2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55548E29-D372-3DB9-83AD-6A9F8040E08F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

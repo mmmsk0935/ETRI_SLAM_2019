@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C3DB262-D645-308E-BB2B-0729E3E24BCE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>g2o</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g2o.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g2o</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g2o.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g2o</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">g2o.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">g2o</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">g2o.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">g2o</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";g2o_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";g2o_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/bin/Debug/g2o.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/Debug/g2o.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -O3 -march=native</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";g2o_EXPORTS;WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";g2o_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/bin/Release/g2o.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/Release/g2o.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";g2o_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";g2o_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/bin/MinSizeRel/g2o.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/MinSizeRel/g2o.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";g2o_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";g2o_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\core;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\types;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\stuff;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/bin/RelWithDebInfo/g2o.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/RelWithDebInfo/g2o.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\cmake_modules\FindEigen3.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\cmake_modules\FindEigen3.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\cmake_modules\FindEigen3.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\cmake_modules\FindEigen3.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_sba.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_sba.cpp" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_seven_dof_expmap.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_seven_dof_expmap.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\se3quat.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\se3_ops.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\se3_ops.hpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\base_edge.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\base_binary_edge.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph_action.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\base_binary_edge.hpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph_action.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\base_multi_edge.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\base_multi_edge.hpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\base_unary_edge.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\linear_solver.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\base_unary_edge.hpp" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\marginal_covariance_cholesky.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\base_vertex.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\marginal_covariance_cholesky.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\base_vertex.hpp" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\matrix_structure.cpp" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\batch_stats.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\matrix_structure.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\batch_stats.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\openmp_mutex.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\block_solver.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\block_solver.hpp" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\parameter.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\parameter.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\cache.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\cache.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimizable_graph.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimizable_graph.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\solver.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\solver.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\creators.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm_factory.cpp" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\estimate_propagator.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm_factory.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\estimate_propagator.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\factory.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm_property.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\factory.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_optimizer.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix.hpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_optimizer.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_dijkstra.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_dijkstra.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\parameter_container.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\parameter_container.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm_with_hessian.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm_with_hessian.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm_levenberg.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm_levenberg.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\jacobian_workspace.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\jacobian_workspace.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel_factory.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel_factory.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel_impl.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\string_tools.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\color_macros.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\macros.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\timeutil.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\misc.h" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\timeutil.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\os_specific.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\os_specific.h" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\string_tools.cpp" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\property.cpp" />
+    <ClInclude Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\stuff\property.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\ZERO_CHECK.vcxproj">
+      <Project>{504DBA81-5464-373C-AFC4-4DE3788585D4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

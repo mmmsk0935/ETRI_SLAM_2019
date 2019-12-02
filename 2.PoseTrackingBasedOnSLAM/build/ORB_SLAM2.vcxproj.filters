@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Tracking.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\LocalMapping.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\LoopClosing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\ORBextractor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\ORBmatcher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\FrameDrawer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Converter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapPoint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\KeyFrame.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Map.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Optimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\PnPsolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Frame.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\KeyFrameDatabase.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Sim3Solver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Initializer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Viewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1EC5AEA6-C995-362C-8762-5B9AB7937C70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

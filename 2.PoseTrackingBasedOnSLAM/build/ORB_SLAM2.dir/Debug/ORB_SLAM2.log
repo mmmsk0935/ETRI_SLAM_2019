@@ -1,0 +1,145 @@
+﻿  System.cc
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,38): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,51): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,49): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,62): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(31,2): error C2065: 'HANDLE': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(31,9): error C2146: 구문 오류: ';'이(가) 'timer' 식별자 앞에 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(31,9): error C2065: 'timer': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(32,2): error C2065: 'LARGE_INTEGER': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(32,16): error C2146: 구문 오류: ';'이(가) 'ft' 식별자 앞에 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(32,16): error C2065: 'ft': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(34,2): error C2065: 'ft': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(36,2): error C2065: 'timer': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(36,36): error C2065: 'TRUE': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(36,10): error C3861: 'CreateWaitableTimer': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(37,19): error C2065: 'timer': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(37,27): error C2065: 'ft': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(37,2): error C3861: 'SetWaitableTimer': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(38,22): error C2065: 'timer': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(38,29): error C2065: 'INFINITE': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(38,2): error C3861: 'WaitForSingleObject': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(39,14): error C2065: 'timer': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(39,2): error C3861: 'CloseHandle': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(332,19): error C2039: 'BindToContext': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+  Tracking.cc
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc(332,32): error C3861: 'BindToContext': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,38): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,51): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,49): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+  LocalMapping.cc
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,62): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,38): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,51): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,49): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+  LoopClosing.cc
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,62): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,38): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,51): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,49): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+  FrameDrawer.cc
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,62): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,38): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,51): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,49): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+  Converter.cc
+  MapDrawer.cc
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,62): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,38): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,51): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,49): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,62): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(54,5): error C3861: 'glPointSize': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(55,13): error C2065: 'GL_POINTS': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(55,5): error C3861: 'glBegin': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(56,5): error C3861: 'glColor3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(63,9): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(65,5): error C3861: 'glEnd': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(67,5): error C3861: 'glPointSize': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(68,13): error C2065: 'GL_POINTS': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(68,5): error C3861: 'glBegin': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(69,5): error C3861: 'glColor3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(76,9): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(80,5): error C3861: 'glEnd': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(98,13): error C3861: 'glPushMatrix': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(100,35): error C2065: 'GLfloat': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(100): error C2672: 'cv::Mat::ptr': 일치하는 오버로드된 함수가 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(100,45): error C2974: 'cv::Mat::ptr': '_Tp'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
+C:\opencv\3.1.0\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1686): message : 'cv::Mat::ptr' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(100,45): error C2975: 'n': 'cv::Mat::ptr'의 템플릿 인수가 잘못되었습니다. 컴파일 타임 상수 식이 필요합니다.
+C:\opencv\3.1.0\opencv\sources\modules\core\include\opencv2/core/mat.hpp(1665): message : 'n' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(100,13): error C3861: 'glMultMatrixf': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(102,13): error C3861: 'glLineWidth': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(103,13): error C3861: 'glColor3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(104,21): error C2065: 'GL_LINES': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(104,13): error C3861: 'glBegin': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(105,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(106,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(107,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(108,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(109,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(110,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(111,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(112,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(114,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(115,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(117,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(118,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(120,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(121,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(123,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(124,13): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(125,13): error C3861: 'glEnd': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(127,13): error C3861: 'glPopMatrix': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(133,9): error C3861: 'glLineWidth': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(134,9): error C3861: 'glColor4f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(135,17): error C2065: 'GL_LINES': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(135,9): error C3861: 'glBegin': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(149,21): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(150,21): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(159,17): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(160,17): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(170,17): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(171,17): error C3861: 'glVertex3f': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(175,9): error C3861: 'glEnd': 식별자를 찾을 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(179,45): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(179,58): error C2065: 'OpenGlMatrix': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(179,59): error C2065: 'Twc': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(179,62): error C2761: 'void ORB_SLAM2::MapDrawer::DrawCurrentCamera(void)': 멤버를 재선언할 수 없습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(180,1): error C2448: 'ORB_SLAM2::MapDrawer::DrawCurrentCamera': 함수 스타일 이니셜라이저가 함수 정의처럼 나타납니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(228,56): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(228,69): error C2065: 'OpenGlMatrix': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(228,70): error C2065: 'M': 선언되지 않은 식별자입니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(228,71): error C2761: 'void ORB_SLAM2::MapDrawer::GetCurrentOpenGLCameraMatrix(void)': 멤버를 재선언할 수 없습니다.
+  Optimizer.cc
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc(229,1): error C2448: 'ORB_SLAM2::MapDrawer::GetCurrentOpenGLCameraMatrix': 함수 스타일 이니셜라이저가 함수 정의처럼 나타납니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,38): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,51): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,49): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+  PnPsolver.cc
+  Initializer.cc
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,62): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,38): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(43,51): error C2061: 구문 오류: 식별자 'OpenGlMatrix'
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,49): error C2039: 'OpenGlMatrix': 'pangolin'의 멤버가 아닙니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include\pangolin/image/image_io.h(33): message : 'pangolin' 선언을 참조하십시오.
+  Viewer.cc
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include\MapDrawer.h(46,62): error C2061: 구문 오류: 식별자 'OpenGlMatrix'

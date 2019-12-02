@@ -1,0 +1,12 @@
+﻿Build started 2018-01-25 오후 4:47:12.
+     1>Project "D:\Project\ThirdPartyLib\SiftGPU\msvc\TestWin\MultiThreadSIFT.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\MultiThreadSIFT.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/MultiThreadSIFT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\MultiThreadSIFT.lib" /MACHINE:X64 MultiThreadSIFT_Release_x64\MultiThreadSIFT.obj
+     1>MultiThreadSIFT.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl SiftGPU::SiftGPU(int)" (__imp_??0SiftGPU@@QEAA@H@Z) referenced in function "public: virtual void __cdecl MultiThreadSIFT::InitializeSIFT(void)" (?InitializeSIFT@MultiThreadSIFT@@UEAAXXZ)
+     1>MultiThreadSIFT.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void * __cdecl SiftGPU::operator new(unsigned __int64)" (__imp_??2SiftGPU@@SAPEAX_K@Z) referenced in function "public: virtual void __cdecl MultiThreadSIFT::InitializeSIFT(void)" (?InitializeSIFT@MultiThreadSIFT@@UEAAXXZ)
+     1>..\..\bin\MultiThreadSIFT.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "D:\Project\ThirdPartyLib\SiftGPU\msvc\TestWin\MultiThreadSIFT.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.23

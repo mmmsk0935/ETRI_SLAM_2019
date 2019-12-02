@@ -1,0 +1,27 @@
+﻿Build started 2015-02-27 오후 4:44:05.
+     1>Project "D:\[Project]\[PhD]\VS2013\[Library]\SiftGPU\msvc\SiftGPU\SiftGPU.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../Include/ /Zi /nologo /W3 /WX- /Od /D _DEBUG /D DLL_EXPORT /D WIN32 /D _WINDOWS /D _USRDLL /D SIFTGPU_DLL /D _CRT_SECURE_NO_DEPRECATE /D SERVER_SIFTGPU_ENABLED /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug_x64\\" /Fd"Debug_x64\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\src\ServerSiftGPU\ServerSiftGPU.cpp
+         ServerSiftGPU.cpp
+     1>..\..\src\ServerSiftGPU\ServerSiftGPU.cpp(559): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\SiftGPU_d.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../lib/ opengl32.lib glu32.lib winmm.lib glew64.lib glew64s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"SiftGPU.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug_x64\/SIFTGPU.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../lib/SIFTGPU_d.lib" /MACHINE:X64 /DLL Debug_x64\CLTexImage.obj
+         Debug_x64\FrameBufferObject.obj
+         Debug_x64\GlobalUtil.obj
+         Debug_x64\GLTexImage.obj
+         Debug_x64\ProgramCL.obj
+         Debug_x64\ProgramGLSL.obj
+         Debug_x64\ProgramGPU.obj
+         Debug_x64\PyramidCL.obj
+         Debug_x64\PyramidGL.obj
+         Debug_x64\ServerSiftGPU.obj
+         Debug_x64\ShaderMan.obj
+         Debug_x64\SiftGPU.obj
+         Debug_x64\SiftMatch.obj
+         Debug_x64\SiftPyramid.obj
+         SiftGPU.vcxproj -> D:\[Project]\[PhD]\VS2013\[Library]\SiftGPU\msvc\SiftGPU\..\..\bin\SiftGPU_d.dll
+     1>Done Building Project "D:\[Project]\[PhD]\VS2013\[Library]\SiftGPU\msvc\SiftGPU\SiftGPU.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

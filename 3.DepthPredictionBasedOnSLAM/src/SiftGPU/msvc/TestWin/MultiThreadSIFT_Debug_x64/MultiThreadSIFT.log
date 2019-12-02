@@ -1,0 +1,5 @@
+﻿cl : 명령줄 warning D9035: 'Gm' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다.
+  MultiThreadSIFT.cpp
+e:\project\thirdpartylib\siftgpu\src\testwin\multithreadsift.cpp(144): warning C4838: 'int'에서 'char'(으)로의 변환에는 축소 변환이 필요합니다.
+e:\project\thirdpartylib\siftgpu\src\testwin\multithreadsift.cpp(216): warning C4838: 'int'에서 'char'(으)로의 변환에는 축소 변환이 필요합니다.
+  MultiThreadSIFT.vcxproj -> E:\Project\ThirdPartyLib\SiftGPU\msvc\TestWin\..\..\bin\MultiThreadSIFT_d.exe

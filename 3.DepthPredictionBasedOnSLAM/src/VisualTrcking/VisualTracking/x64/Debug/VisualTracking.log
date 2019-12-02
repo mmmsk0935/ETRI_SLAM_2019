@@ -1,0 +1,23 @@
+﻿  main.cpp
+e:\project\vsiaulslam\src\visualtrcking\visualtracking\main.cpp(82): warning C4244: '인수': 'float'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+e:\project\vsiaulslam\src\visualtrcking\visualtracking\main.cpp(83): warning C4244: '인수': 'float'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+e:\project\vsiaulslam\src\visualtrcking\visualtracking\main.cpp(107): warning C4244: '인수': 'float'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+e:\project\vsiaulslam\src\visualtrcking\visualtracking\main.cpp(108): warning C4244: '인수': 'float'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+  VisualTracking.vcxproj -> E:\Project\VsiaulSLAM\src\VisualTrcking\x64\Debug\VisualTracking.exe
+          1개 파일이 복사되었습니다.

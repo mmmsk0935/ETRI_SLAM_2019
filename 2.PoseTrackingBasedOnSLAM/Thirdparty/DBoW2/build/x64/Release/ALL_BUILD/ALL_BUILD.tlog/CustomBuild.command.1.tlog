@@ -1,0 +1,10 @@
+^D:\NOW\VISUAL-INERTIAL-SLAM\ORBSLAM-WINDOWS-MASTER\THIRDPARTY\DBOW2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/DBoW2 -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/DBoW2/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/DBoW2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,6 @@
+﻿  NewTsukubaTestView.cpp
+CL : warning : detected 'min' and/or 'max' macros and undefined them;
+CL : warning : you may wish to define NOMINMAX before including any windows header
+e:\project\vsiaulslam\src\newtsukubatest\newtsukubatest\newtsukubatestview.cpp(58): error C3861: 'gets': 식별자를 찾을 수 없습니다.
+e:\project\vsiaulslam\src\newtsukubatest\newtsukubatest\newtsukubatestview.cpp(62): warning C4477: 'sscanf' : 서식 문자열 '%lf'에 'double *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'float *'입니다.
+  e:\project\vsiaulslam\src\newtsukubatest\newtsukubatest\newtsukubatestview.cpp(62): note: 서식 문자열에서 '%f'을(를) 사용하는 것이 좋습니다.

@@ -1,0 +1,29 @@
+﻿OpenGLWnd.obj : error LNK2019: __imp__wglCreateContext@4 외부 기호(참조 위치: "public: int __thiscall COpenGLWnd::CreateViewGLContext(void)" (?CreateViewGLContext@COpenGLWnd@@QAEHXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__wglGetCurrentDC@0 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::OnPaint(void)" (?OnPaint@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__wglMakeCurrent@8 외부 기호(참조 위치: "public: int __thiscall COpenGLWnd::OnCreate(struct tagCREATESTRUCTW *)" (?OnCreate@COpenGLWnd@@QAEHPAUtagCREATESTRUCTW@@@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__wglUseFontBitmapsW@16 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::BuildGLFont(void)" (?BuildGLFont@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glBegin@4 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderAxis(void)" (?RenderAxis@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glCallLists@12 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::PrintTextToGLWnd(char const *)" (?PrintTextToGLWnd@COpenGLWnd@@QAEXPBD@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glColor3f@12 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderAxis(void)" (?RenderAxis@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glDeleteLists@8 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::KillGLFont(void)" (?KillGLFont@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glDisable@4 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::OnPaint(void)" (?OnPaint@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glDisableClientState@4 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderFloor(void)" (?RenderFloor@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glDrawArrays@12 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderFloor(void)" (?RenderFloor@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glEnable@4 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::OnPaint(void)" (?OnPaint@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glEnableClientState@4 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderFloor(void)" (?RenderFloor@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glEnd@0 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderAxis(void)" (?RenderAxis@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glFrustum@48 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::SetViewFrustum(int,int,double,double,double,double,double,double)" (?SetViewFrustum@COpenGLWnd@@QAEXHHNNNNNN@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glGenLists@4 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::BuildGLFont(void)" (?BuildGLFont@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glLineStipple@8 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderAxis(void)" (?RenderAxis@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glLineWidth@4 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderAxis(void)" (?RenderAxis@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glListBase@4 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::PrintTextToGLWnd(char const *)" (?PrintTextToGLWnd@COpenGLWnd@@QAEXPBD@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glLoadIdentity@0 외부 기호(참조 위치: "public: int __thiscall COpenGLWnd::OnCreate(struct tagCREATESTRUCTW *)" (?OnCreate@COpenGLWnd@@QAEHPAUtagCREATESTRUCTW@@@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glMatrixMode@4 외부 기호(참조 위치: "public: int __thiscall COpenGLWnd::OnCreate(struct tagCREATESTRUCTW *)" (?OnCreate@COpenGLWnd@@QAEHPAUtagCREATESTRUCTW@@@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glOrtho@48 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::OnSize(unsigned int,int,int)" (?OnSize@COpenGLWnd@@QAEXIHH@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glPopAttrib@0 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::PrintTextToGLWnd(char const *)" (?PrintTextToGLWnd@COpenGLWnd@@QAEXPBD@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glPushAttrib@4 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::PrintTextToGLWnd(char const *)" (?PrintTextToGLWnd@COpenGLWnd@@QAEXPBD@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glVertex3f@12 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderAxis(void)" (?RenderAxis@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glVertexPointer@16 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::RenderFloor(void)" (?RenderFloor@COpenGLWnd@@QAEXXZ) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: __imp__glViewport@16 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::OnSize(unsigned int,int,int)" (?OnSize@COpenGLWnd@@QAEXIHH@Z) 함수)에서 확인하지 못했습니다.
+OpenGLWnd.obj : error LNK2019: _gluPerspective@32 외부 기호(참조 위치: "public: void __thiscall COpenGLWnd::OnSize(unsigned int,int,int)" (?OnSize@COpenGLWnd@@QAEXIHH@Z) 함수)에서 확인하지 못했습니다.
+E:\Project\VsiaulSLAM\src\VisualSLAMViewer\Debug\VisualSLAMViewer.exe : fatal error LNK1120: 28개의 확인할 수 없는 외부 참조입니다.

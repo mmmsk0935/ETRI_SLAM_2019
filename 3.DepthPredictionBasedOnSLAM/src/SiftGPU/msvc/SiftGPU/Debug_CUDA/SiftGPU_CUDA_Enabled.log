@@ -1,0 +1,106 @@
+﻿Build started 2018-02-20 오후 4:48:00.
+     1>Project "D:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU\SiftGPU_CUDA_Enabled.vcxproj" on node 2 (Rebuild target(s)).
+     1>CudaClean:
+         cmd.exe /C "C:\Users\SuperComeng\AppData\Local\Temp\tmpc5c64dd765994a2c91468919375b1998.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I../../Include/ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -D_DEBUG -DDLL_EXPORT -DWIN32 -D_WINDOWS -D_USRDLL -DSIFTGPU_DLL -D_CRT_SECURE_NO_DEPRECATE -DCUDA_SIFTGPU_ENABLED -DSERVER_SIFTGPU_ENABLED -D_VC80_UPGRADE=0x0600 -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MTd " -o .\Debug_CUDA\ProgramCU.cu.obj "D:\Project\ThirdPartyLib\SiftGPU\src\SiftGPU\ProgramCU.cu" -clean
+         
+         D:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I../../Include/ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -D_DEBUG -DDLL_EXPORT -DWIN32 -D_WINDOWS -D_USRDLL -DSIFTGPU_DLL -D_CRT_SECURE_NO_DEPRECATE -DCUDA_SIFTGPU_ENABLED -DSERVER_SIFTGPU_ENABLED -D_VC80_UPGRADE=0x0600 -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MTd " -o .\Debug_CUDA\ProgramCU.cu.obj "D:\Project\ThirdPartyLib\SiftGPU\src\SiftGPU\ProgramCU.cu" -clean 
+         ProgramCU.cu
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_DEBUG /DDLL_EXPORT /DWIN32 /D_WINDOWS /D_USRDLL /DSIFTGPU_DLL /D_CRT_SECURE_NO_DEPRECATE /DCUDA_SIFTGPU_ENABLED /DSERVER_SIFTGPU_ENABLED /D_VC80_UPGRADE=0x0600 /D_WINDLL /D_MBCS /I../../Include/ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" /I. /FIcuda_runtime.h /c D:\Project\ThirdPartyLib\SiftGPU\src\SiftGPU\ProgramCU.cu 
+     1>Project "D:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU\SiftGPU_CUDA_Enabled.vcxproj" (1) is building "D:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU\SiftGPU_CUDA_Enabled.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
+     1>CudaBuildCore:
+         Compiling CUDA source file ..\..\src\SiftGPU\ProgramCU.cu...
+         cmd.exe /C "C:\Users\SuperComeng\AppData\Local\Temp\tmp103736d76f104277ad30eb618666d678.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I../../Include/ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_DEBUG -DDLL_EXPORT -DWIN32 -D_WINDOWS -D_USRDLL -DSIFTGPU_DLL -D_CRT_SECURE_NO_DEPRECATE -DCUDA_SIFTGPU_ENABLED -DSERVER_SIFTGPU_ENABLED -D_VC80_UPGRADE=0x0600 -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MTd " -o .\Debug_CUDA\ProgramCU.cu.obj "D:\Project\ThirdPartyLib\SiftGPU\src\SiftGPU\ProgramCU.cu"
+         
+         D:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I../../Include/ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_DEBUG -DDLL_EXPORT -DWIN32 -D_WINDOWS -D_USRDLL -DSIFTGPU_DLL -D_CRT_SECURE_NO_DEPRECATE -DCUDA_SIFTGPU_ENABLED -DSERVER_SIFTGPU_ENABLED -D_VC80_UPGRADE=0x0600 -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MTd " -o .\Debug_CUDA\ProgramCU.cu.obj "D:\Project\ThirdPartyLib\SiftGPU\src\SiftGPU\ProgramCU.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+         ProgramCU.cu
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>Done Building Project "D:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU\SiftGPU_CUDA_Enabled.vcxproj" (CudaBuildCore target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I\ /I../../Include/ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DLL_EXPORT /D WIN32 /D _WINDOWS /D _USRDLL /D SIFTGPU_DLL /D _CRT_SECURE_NO_DEPRECATE /D CUDA_SIFTGPU_ENABLED /D SERVER_SIFTGPU_ENABLED /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Zc:wchar_t /Zc:forScope /Fo".\Debug_CUDA\\" /Fd".\Debug_CUDA\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\SiftGPU\CuTexImage.cpp ..\..\src\SiftGPU\PyramidCU.cpp
+         PyramidCU.cpp
+         CuTexImage.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../Include/ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DLL_EXPORT /D WIN32 /D _WINDOWS /D _USRDLL /D SIFTGPU_DLL /D _CRT_SECURE_NO_DEPRECATE /D CUDA_SIFTGPU_ENABLED /D SERVER_SIFTGPU_ENABLED /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Zc:wchar_t /Zc:forScope /Fo".\Debug_CUDA\\" /Fd".\Debug_CUDA\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\SiftGPU\FrameBufferObject.cpp ..\..\src\SiftGPU\GlobalUtil.cpp ..\..\src\SiftGPU\GLTexImage.cpp ..\..\src\SiftGPU\ProgramGLSL.cpp ..\..\src\SiftGPU\ProgramGPU.cpp ..\..\src\SiftGPU\PyramidGL.cpp ..\..\src\ServerSiftGPU\ServerSiftGPU.cpp ..\..\src\SiftGPU\ShaderMan.cpp ..\..\src\SiftGPU\SiftGPU.cpp ..\..\src\SiftGPU\SiftMatch.cpp ..\..\src\SiftGPU\SiftMatchCU.cpp ..\..\src\SiftGPU\SiftPyramid.cpp
+         SiftPyramid.cpp
+         SiftMatchCU.cpp
+         SiftMatch.cpp
+         SiftGPU.cpp
+         ShaderMan.cpp
+         ServerSiftGPU.cpp
+     1>d:\project\thirdpartylib\siftgpu\src\serversiftgpu\serversiftgpu.cpp(200): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+         PyramidGL.cpp
+         ProgramGPU.cpp
+         ProgramGLSL.cpp
+         GLTexImage.cpp
+         GlobalUtil.cpp
+         FrameBufferObject.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\SiftGPU_d.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../lib/ /LIBPATH:/../Win32 /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\Win32" opengl32.lib glu32.lib winmm.lib cuda.lib cudart.lib glew32.lib glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"SiftGPU.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug_CUDA\/SIFTGPU.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../lib/SIFTGPU_d.lib" /MACHINE:X86 /SAFESEH /DLL .\Debug_CUDA\ProgramCU.cu.obj
+         .\Debug_CUDA\CuTexImage.obj
+         .\Debug_CUDA\FrameBufferObject.obj
+         .\Debug_CUDA\GlobalUtil.obj
+         .\Debug_CUDA\GLTexImage.obj
+         .\Debug_CUDA\ProgramGLSL.obj
+         .\Debug_CUDA\ProgramGPU.obj
+         .\Debug_CUDA\PyramidCU.obj
+         .\Debug_CUDA\PyramidGL.obj
+         .\Debug_CUDA\ServerSiftGPU.obj
+         .\Debug_CUDA\ShaderMan.obj
+         .\Debug_CUDA\SiftGPU.obj
+         .\Debug_CUDA\SiftMatch.obj
+         .\Debug_CUDA\SiftMatchCU.obj
+         .\Debug_CUDA\SiftPyramid.obj
+     1>CuTexImage.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library ../../lib/SIFTGPU_d.lib and object ../../lib/SIFTGPU_d.exp
+         SiftGPU_CUDA_Enabled.vcxproj -> D:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU\..\..\bin\SiftGPU_d.dll
+     1>Done Building Project "D:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU\SiftGPU_CUDA_Enabled.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.53

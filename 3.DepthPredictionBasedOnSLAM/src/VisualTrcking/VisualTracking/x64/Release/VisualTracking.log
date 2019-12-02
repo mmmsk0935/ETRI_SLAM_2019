@@ -1,0 +1,10 @@
+﻿  LineSegmentWrapper.cpp
+CL : warning : detected 'min' and/or 'max' macros and undefined them;
+CL : warning : you may wish to define NOMINMAX before including any windows header
+  코드를 생성하고 있습니다.
+  2 of 2585 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  VisualTracking.vcxproj -> E:\Project\VsiaulSLAM\src\VisualTrcking\x64\Release\VisualTracking.exe
+          1개 파일이 복사되었습니다.

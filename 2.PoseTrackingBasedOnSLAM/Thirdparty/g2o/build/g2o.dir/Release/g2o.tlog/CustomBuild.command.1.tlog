@@ -1,0 +1,10 @@
+^D:\NOW\VISUAL-INERTIAL-SLAM\ORBSLAM-WINDOWS-MASTER\THIRDPARTY\G2O\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

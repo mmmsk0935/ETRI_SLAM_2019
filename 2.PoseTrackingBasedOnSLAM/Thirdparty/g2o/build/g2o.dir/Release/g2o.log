@@ -1,0 +1,188 @@
+﻿  Building Custom Rule D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/CMakeLists.txt
+cl : 명령줄 warning D9002: 알 수 없는 '-O3' 옵션을 무시합니다.
+  types_sba.cpp
+cl : 명령줄 warning D9002: 알 수 없는 '-march=native' 옵션을 무시합니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_vertex.h(62,1): warning C4996: 'Eigen::AlignedBit': deprecated로 선언되었습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : 'Eigen::AlignedBit' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_sba.h(41): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::BaseVertex<3,Eigen::Vector3d>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99,1): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99): message : 클래스 템플릿 멤버 함수 'int g2o::BaseVertex<3,Eigen::Vector3d>::stackSize(void) const'을(를) 컴파일하는 중입니다.
+  types_six_dof_expmap.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_sba.h(41): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::BaseVertex<3,Eigen::Vector3d>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel.h(77,46): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_vertex.h(62,1): warning C4996: 'Eigen::AlignedBit': deprecated로 선언되었습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : 'Eigen::AlignedBit' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_sba.h(41): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::BaseVertex<3,Eigen::Vector3d>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_binary_edge.h(59,1): warning C4996: 'Eigen::AlignedBit': deprecated로 선언되었습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : 'Eigen::AlignedBit' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(80): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::BaseBinaryEdge<2,Eigen::Vector2d,g2o::VertexSBAPointXYZ,g2o::VertexSE3Expmap>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_binary_edge.h(60,1): warning C4996: 'Eigen::AlignedBit': deprecated로 선언되었습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : 'Eigen::AlignedBit' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(126,67): warning C4244: '인수': 'double'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp(151,26): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp(151,20): warning C4244: '초기화 중': 'double'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp(300,26): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.cpp(300,20): warning C4244: '초기화 중': 'double'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99,1): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99): message : 클래스 템플릿 멤버 함수 'int g2o::BaseVertex<6,g2o::SE3Quat>::stackSize(void) const'을(를) 컴파일하는 중입니다.
+  types_seven_dof_expmap.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(59): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::BaseVertex<6,g2o::SE3Quat>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel.h(77,46): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_vertex.h(62,1): warning C4996: 'Eigen::AlignedBit': deprecated로 선언되었습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : 'Eigen::AlignedBit' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_sba.h(41): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::BaseVertex<3,Eigen::Vector3d>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_binary_edge.h(59,1): warning C4996: 'Eigen::AlignedBit': deprecated로 선언되었습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : 'Eigen::AlignedBit' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(80): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::BaseBinaryEdge<2,Eigen::Vector2d,g2o::VertexSBAPointXYZ,g2o::VertexSE3Expmap>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_binary_edge.h(60,1): warning C4996: 'Eigen::AlignedBit': deprecated로 선언되었습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/util/Constants.h(162): message : 'Eigen::AlignedBit' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_six_dof_expmap.h(126,67): warning C4244: '인수': 'double'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99,1): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\../core/base_vertex.h(99): message : 클래스 템플릿 멤버 함수 'int g2o::BaseVertex<7,g2o::Sim3>::stackSize(void) const'을(를) 컴파일하는 중입니다.
+  hyper_graph_action.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\types\types_seven_dof_expmap.h(49): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::BaseVertex<7,g2o::Sim3>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+  hyper_graph.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  marginal_covariance_cholesky.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(229,1): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(281): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::SparseBlockMatrixHashMap<MatrixType>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\marginal_covariance_cholesky.h(53,56): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+  matrix_structure.cpp
+  batch_stats.cpp
+  parameter.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\marginal_covariance_cholesky.cpp(160,43): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  cache.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+  optimizable_graph.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(229,1): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(281): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::SparseBlockMatrixHashMap<MatrixType>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\estimate_propagator.h(138,107): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel.h(77,46): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+  solver.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimizable_graph.cpp(447,38): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(229,1): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+  optimization_algorithm_factory.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(281): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::SparseBlockMatrixHashMap<MatrixType>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm_factory.cpp(106,47): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  estimate_propagator.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\optimization_algorithm_factory.cpp(107,38): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(229,1): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(281): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::SparseBlockMatrixHashMap<MatrixType>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\estimate_propagator.h(138,107): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  factory.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+  sparse_optimizer.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(229,1): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(281): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::SparseBlockMatrixHashMap<MatrixType>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\estimate_propagator.h(138,107): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel.h(77,46): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_optimizer.cpp(179,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_optimizer.cpp(383,46): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_optimizer.cpp(384,51): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  hyper_dijkstra.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_optimizer.cpp(463,34): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  parameter_container.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  optimization_algorithm.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(229,1): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+  optimization_algorithm_with_hessian.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(281): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::SparseBlockMatrixHashMap<MatrixType>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(229,1): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  optimization_algorithm_levenberg.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(281): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::SparseBlockMatrixHashMap<MatrixType>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(229,1): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+  jacobian_workspace.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\sparse_block_matrix_ccs.h(281): message : 컴파일되는 클래스 템플릿 인스턴스화 'g2o::SparseBlockMatrixHashMap<MatrixType>'에 대한 참조를 확인하세요.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\hyper_graph.h(93,57): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_map(837): message : 'std::tr1' 선언을 참조하십시오.
+  robust_kernel.cpp
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\jacobian_workspace.cpp(63,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel.h(77,46): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  robust_kernel_factory.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel.h(77,46): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  robust_kernel_impl.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen\Eigen\src/Core/arch/CUDA/Half.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel.h(77,46): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\functional(2138): message : 'std::tr1' 선언을 참조하십시오.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp(67,14): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp(74,9): warning C4244: '=': 'const double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp(95,14): warning C4244: '=': 'const double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  timeutil.cpp
+  string_tools.cpp
+  property.cpp
+  코드를 생성하고 있습니다...
+D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\g2o\core\robust_kernel_impl.cpp(96,17): warning C4244: '=': 'const double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+cl : 명령줄 warning D9002: 알 수 없는 '-O3' 옵션을 무시합니다.
+  os_specific.c
+cl : 명령줄 warning D9002: 알 수 없는 '-march=native' 옵션을 무시합니다.
+string_tools.obj : warning LNK4006: vasprintf이(가) string_tools.obj에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+  g2o.vcxproj -> D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\g2o\build\Release\g2o.lib

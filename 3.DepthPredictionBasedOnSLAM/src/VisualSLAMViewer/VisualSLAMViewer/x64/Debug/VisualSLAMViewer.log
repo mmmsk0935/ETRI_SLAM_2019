@@ -1,0 +1,63 @@
+﻿  Optimizer.cpp
+CL : warning : detected 'min' and/or 'max' macros and undefined them;
+CL : warning : you may wish to define NOMINMAX before including any windows header
+e:\project\vsiaulslam\include\g2o\types\sba\types_six_dof_expmap.h(276): warning C4244: '인수': 'number_t'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\project\vsiaulslam\include\g2o\solvers\dense\linear_solver_dense.h(83): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  e:\project\vsiaulslam\include\g2o\solvers\dense\linear_solver_dense.h(66): note: 클래스 템플릿 멤버 함수 'bool g2o::LinearSolverDense<Eigen::Matrix<double,-1,-1,0,-1,-1>>::solve(const g2o::SparseBlockMatrix<g2o::MatrixX> &,number_t *,number_t *)'을(를) 컴파일하고 있습니다.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(622): note: 컴파일 중인 클래스 템플릿 인스턴스화 'g2o::LinearSolverDense<Eigen::Matrix<double,-1,-1,0,-1,-1>>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\g2o\solvers\dense\linear_solver_dense.h(83): note: 컴파일되는 변수 템플릿 'const bool is_convertible_v<g2o::LinearSolverDense<Eigen::Matrix<double,-1,-1,0,-1,-1> > *,g2o::LinearSolver<Eigen::Matrix<double,-1,-1,0,-1,-1> > *>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\src\visualslamviewer\visualslamviewer\optimizer.cpp(89): note: 컴파일 중인 클래스 템플릿 인스턴스화 'std::is_assignable<std::default_delete<_Ty> &,std::default_delete<g2o::LinearSolverDense<Eigen::Matrix<double,-1,-1,0,-1,-1>>>>'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=g2o::LinearSolver<g2o::BlockSolverTraits<-1,-1>::PoseMatrixType>
+          ]
+  e:\project\vsiaulslam\include\g2o\solvers\dense\linear_solver_dense.h(83): note: 컴파일되는 변수 템플릿 'const bool conjunction_v<std::negation<std::is_array<g2o::LinearSolverDense<Eigen::Matrix<double,-1,-1,0,-1,-1> > > >,std::is_assignable<std::default_delete<g2o::LinearSolver<Eigen::Matrix<double,-1,-1,0,-1,-1> > > &,std::default_delete<g2o::LinearSolverDense<Eigen::Matrix<double,-1,-1,0,-1,-1> > > >,std::is_convertible<g2o::LinearSolverDense<Eigen::Matrix<double,-1,-1,0,-1,-1> > *,g2o::LinearSolver<Eigen::Matrix<double,-1,-1,0,-1,-1> > *> >'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\boost\bind\placeholders.hpp(54): note: 컴파일 중인 클래스 템플릿 인스턴스화 'boost::arg<9>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\boost\bind\placeholders.hpp(53): note: 컴파일 중인 클래스 템플릿 인스턴스화 'boost::arg<8>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\boost\bind\placeholders.hpp(52): note: 컴파일 중인 클래스 템플릿 인스턴스화 'boost::arg<7>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\boost\bind\placeholders.hpp(51): note: 컴파일 중인 클래스 템플릿 인스턴스화 'boost::arg<6>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\boost\bind\placeholders.hpp(50): note: 컴파일 중인 클래스 템플릿 인스턴스화 'boost::arg<5>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\boost\bind\placeholders.hpp(49): note: 컴파일 중인 클래스 템플릿 인스턴스화 'boost::arg<4>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\boost\bind\placeholders.hpp(48): note: 컴파일 중인 클래스 템플릿 인스턴스화 'boost::arg<3>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\boost\bind\placeholders.hpp(47): note: 컴파일 중인 클래스 템플릿 인스턴스화 'boost::arg<2>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\boost\bind\placeholders.hpp(46): note: 컴파일 중인 클래스 템플릿 인스턴스화 'boost::arg<1>'에 대한 참조를 확인하세요.
+e:\project\vsiaulslam\include\g2o\solvers\dense\linear_solver_dense.h(84): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\project\vsiaulslam\include\g2o\core\base_vertex.h(96): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\base_vertex.h(96): note: 클래스 템플릿 멤버 함수 'int g2o::BaseVertex<4,Eigen::Vector4d>::stackSize(void) const'을(를) 컴파일하고 있습니다.
+  e:\project\vsiaulslam\src\visualslamviewer\visualslamviewer\optimizer.h(23): note: 컴파일 중인 클래스 템플릿 인스턴스화 'g2o::BaseVertex<4,Eigen::Vector4d>'에 대한 참조를 확인하세요.
+e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(302): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(291): note: 클래스 템플릿 멤버 함수 'void g2o::SparseBlockMatrix<g2o::MatrixX>::multiplySymmetricUpperTriangle(number_t *&,const number_t *) const'을(를) 컴파일하고 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\block_solver.h(145): note: 컴파일 중인 함수 템플릿 인스턴스화 'void g2o::SparseBlockMatrix<g2o::MatrixX>::multiplySymmetricUpperTriangle(number_t *&,const number_t *) const'에 대한 참조를 확인하십시오.
+  e:\project\vsiaulslam\include\g2o\solvers\dense\linear_solver_dense.h(67): note: 컴파일 중인 클래스 템플릿 인스턴스화 'g2o::SparseBlockMatrix<g2o::MatrixX>'에 대한 참조를 확인하세요.
+  e:\project\vsiaulslam\include\g2o\solvers\dense\linear_solver_dense.h(66): note: 클래스 템플릿 멤버 함수 'bool g2o::LinearSolverDense<Eigen::Matrix<double,-1,-1,0,-1,-1>>::solve(const g2o::SparseBlockMatrix<g2o::MatrixX> &,number_t *,number_t *)'을(를) 컴파일하고 있습니다.
+e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(131): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(104): note: 클래스 템플릿 멤버 함수 'bool g2o::BlockSolver<g2o::BlockSolverTraits<-1,-1>>::buildStructure(bool)'을(를) 컴파일하고 있습니다.
+  e:\project\vsiaulslam\src\visualslamviewer\visualslamviewer\optimizer.cpp(87): note: 컴파일 중인 클래스 템플릿 인스턴스화 'g2o::BlockSolver<g2o::BlockSolverTraits<-1,-1>>'에 대한 참조를 확인하세요.
+e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(189): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(198): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(204): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(209): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(302): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(260): note: 클래스 템플릿 멤버 함수 'bool g2o::BlockSolver<g2o::BlockSolverTraits<-1,-1>>::updateStructure(const std::vector<g2o::HyperGraph::Vertex *,std::allocator<_Kty>> &,const g2o::HyperGraph::EdgeSet &)'을(를) 컴파일하고 있습니다.
+          with
+          [
+              _Kty=g2o::HyperGraph::Vertex *
+          ]
+e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(498): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(464): note: 클래스 템플릿 멤버 함수 'bool g2o::BlockSolver<g2o::BlockSolverTraits<-1,-1>>::buildSystem(void)'을(를) 컴파일하고 있습니다.
+e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(589): warning C4267: '초기화 중': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(581): note: 클래스 템플릿 멤버 함수 'bool g2o::SparseBlockMatrix<g2o::MatrixX>::writeOctave(const char *,bool) const'을(를) 컴파일하고 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(592): note: 컴파일 중인 함수 템플릿 인스턴스화 'bool g2o::SparseBlockMatrix<g2o::MatrixX>::writeOctave(const char *,bool) const'에 대한 참조를 확인하십시오.
+  e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(291): note: 클래스 템플릿 멤버 함수 'void g2o::SparseBlockMatrix<g2o::MatrixX>::multiplySymmetricUpperTriangle(number_t *&,const number_t *) const'을(를) 컴파일하고 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\block_solver.h(145): note: 컴파일 중인 함수 템플릿 인스턴스화 'void g2o::SparseBlockMatrix<g2o::MatrixX>::multiplySymmetricUpperTriangle(number_t *&,const number_t *) const'에 대한 참조를 확인하십시오.
+e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(605): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(651): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(643): note: 클래스 템플릿 멤버 함수 'int g2o::SparseBlockMatrix<g2o::MatrixX>::fillSparseBlockMatrixCCSTransposed(g2o::SparseBlockMatrixCCS<Eigen::Matrix<double,-1,-1,0,-1,-1>> &) const'을(를) 컴파일하고 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\block_solver.hpp(253): note: 컴파일 중인 함수 템플릿 인스턴스화 'int g2o::SparseBlockMatrix<g2o::MatrixX>::fillSparseBlockMatrixCCSTransposed(g2o::SparseBlockMatrixCCS<Eigen::Matrix<double,-1,-1,0,-1,-1>> &) const'에 대한 참조를 확인하십시오.
+e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(192): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(186): note: 클래스 템플릿 멤버 함수 'void g2o::SparseBlockMatrix<g2o::MatrixX>::add_internal(g2o::SparseBlockMatrix<g2o::MatrixX> &) const'을(를) 컴파일하고 있습니다.
+  e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(218): note: 컴파일 중인 함수 템플릿 인스턴스화 'void g2o::SparseBlockMatrix<g2o::MatrixX>::add_internal(g2o::SparseBlockMatrix<g2o::MatrixX> &) const'에 대한 참조를 확인하십시오.
+  e:\project\vsiaulslam\include\g2o\core\sparse_block_matrix.hpp(85): note: 클래스 템플릿 멤버 함수 'g2o::SparseBlockMatrix<g2o::MatrixX>::~SparseBlockMatrix(void)'을(를) 컴파일하고 있습니다.
+  e:\project\vsiaulslam\src\visualslamviewer\visualslamviewer\optimizer.cpp(499): note: 컴파일 중인 함수 템플릿 인스턴스화 'g2o::SparseBlockMatrix<g2o::MatrixX>::~SparseBlockMatrix(void)'에 대한 참조를 확인하십시오.
+  VisualSLAMViewer.vcxproj -> E:\Project\VsiaulSLAM\src\VisualSLAMViewer\x64\Debug\VisualSLAMViewer.exe
+          1개 파일이 복사되었습니다.

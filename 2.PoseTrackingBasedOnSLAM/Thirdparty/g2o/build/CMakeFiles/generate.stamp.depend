@@ -1,0 +1,29 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/Platform/WindowsPaths.cmake
+D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/CMakeLists.txt
+D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/CMakeFiles/3.16.0-rc1/CMakeCCompiler.cmake
+D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/CMakeFiles/3.16.0-rc1/CMakeCXXCompiler.cmake
+D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/CMakeFiles/3.16.0-rc1/CMakeRCCompiler.cmake
+D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/build/CMakeFiles/3.16.0-rc1/CMakeSystem.cmake
+D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/cmake_modules/FindEigen3.cmake
+D:/Now/Visual-inertial-SLAM/orbslam-windows-master/Thirdparty/g2o/config.h.in

@@ -1,0 +1,14 @@
+﻿Build started 2015-02-27 오후 4:04:39.
+     1>Project "D:\[Project]\[PhD]\VS2013\[Library]\SiftGPU\msvc\TestWin\TestBase.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../Include/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Zc:wchar_t /Zc:forScope /Fo"TestBase_Debug\\" /Fd"TestBase_Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\TestWin\BasicTestWin.cpp
+         BasicTestWin.cpp
+     1>d:\[project]\[phd]\vs2013\[library]\siftgpu\src\testwin\basictestwin.cpp(306): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\TestBase_d.lib" /NOLOGO TestBase_Debug\BasicTestWin.obj
+         TestBase.vcxproj -> D:\[Project]\[PhD]\VS2013\[Library]\SiftGPU\msvc\TestWin\..\..\lib\TestBase_d.lib
+     1>Done Building Project "D:\[Project]\[PhD]\VS2013\[Library]\SiftGPU\msvc\TestWin\TestBase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.14

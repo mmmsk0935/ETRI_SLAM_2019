@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Examples\RGB-D\rgbd_tum.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1EC5AEA6-C995-362C-8762-5B9AB7937C70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

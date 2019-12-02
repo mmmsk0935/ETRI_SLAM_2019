@@ -1,0 +1,104 @@
+﻿  Compiling CUDA source file ..\..\src\SiftGPU\ProgramCU.cu...
+  
+  E:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I../../Include/ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DNDEBUG -DSIFTGPU_EXPORTS -DWIN32 -D_WINDOWS -D_USRDLL -DSIFTGPU_DLL -DDLL_EXPORT -D_CRT_SECURE_NO_DEPRECATE -DCUDA_SIFTGPU_ENABLED -DSERVER_SIFTGPU_ENABLED -D_VC80_UPGRADE=0x0600 -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FdRelease_CUDA_x64\ /FS /Zi  /MT " -o Release_CUDA_x64\ProgramCU.cu.obj "E:\Project\ThirdPartyLib\SiftGPU\src\SiftGPU\ProgramCU.cu" 
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(824): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(1759): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(2621): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(3460): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(4403): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(5301): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(6212): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(7093): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(7892): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h(773): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h(1628): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\device_double_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\sm_20_intrinsics.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\sm_20_intrinsics.h(925): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(824): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(1759): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(2621): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(3460): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(4403): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(5301): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(6212): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(7093): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(7892): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h(773): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h(1628): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\device_double_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\sm_20_intrinsics.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\sm_20_intrinsics.h(925): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  ProgramCU.cu
+E:/Project/ThirdPartyLib/SiftGPU/src/SiftGPU/ProgramCU.cu(1195): warning C4996: 'cudaThreadSynchronize': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_runtime_api.h(957): note: 'cudaThreadSynchronize' 선언을 참조하십시오.
+E:/Project/ThirdPartyLib/SiftGPU/src/SiftGPU/ProgramCU.cu(1373): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(824): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(1759): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(2621): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(3461): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(4403): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(5301): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(6212): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(7093): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(7892): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  CuTexImage.cpp
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(73): warning C4996: 'cudaGLRegisterBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(327): note: 'cudaGLRegisterBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(74): warning C4996: 'cudaGLMapBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(356): note: 'cudaGLMapBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(107): warning C4996: 'cudaGLUnmapBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(382): note: 'cudaGLUnmapBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(108): warning C4996: 'cudaGLUnregisterBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(404): note: 'cudaGLUnregisterBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(158): warning C4312: '형식 캐스트': 'int'에서 더 큰 'cudaStream_t'(으)로의 변환입니다.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(222): warning C4996: 'cudaGLRegisterBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(327): note: 'cudaGLRegisterBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(223): warning C4996: 'cudaGLMapBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(356): note: 'cudaGLMapBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(227): warning C4996: 'cudaGLUnmapBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(382): note: 'cudaGLUnmapBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(228): warning C4996: 'cudaGLUnregisterBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(404): note: 'cudaGLUnregisterBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(246): warning C4996: 'cudaGLRegisterBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(327): note: 'cudaGLRegisterBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(247): warning C4996: 'cudaGLMapBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(356): note: 'cudaGLMapBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(249): warning C4996: 'cudaGLUnmapBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(382): note: 'cudaGLUnmapBufferObject' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\cuteximage.cpp(250): warning C4996: 'cudaGLUnregisterBufferObject': deprecated로 선언되었습니다.
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(404): note: 'cudaGLUnregisterBufferObject' 선언을 참조하십시오.
+  PyramidCU.cpp
+  코드를 생성하고 있습니다...
+  FrameBufferObject.cpp
+  GlobalUtil.cpp
+  GLTexImage.cpp
+e:\project\thirdpartylib\siftgpu\src\siftgpu\programglsl.h(68): warning C4312: '형식 캐스트': 'GLuint'에서 더 큰 'void *'(으)로의 변환입니다.
+  ProgramGLSL.cpp
+e:\project\thirdpartylib\siftgpu\src\siftgpu\programglsl.h(68): warning C4312: '형식 캐스트': 'GLuint'에서 더 큰 'void *'(으)로의 변환입니다.
+  ProgramGPU.cpp
+e:\project\thirdpartylib\siftgpu\src\siftgpu\programglsl.h(68): warning C4312: '형식 캐스트': 'GLuint'에서 더 큰 'void *'(으)로의 변환입니다.
+  PyramidGL.cpp
+e:\project\thirdpartylib\siftgpu\src\siftgpu\programglsl.h(68): warning C4312: '형식 캐스트': 'GLuint'에서 더 큰 'void *'(으)로의 변환입니다.
+  ServerSiftGPU.cpp
+e:\project\thirdpartylib\siftgpu\src\serversiftgpu\serversiftgpu.cpp(200): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238): note: 'gethostbyname' 선언을 참조하십시오.
+e:\project\thirdpartylib\siftgpu\src\serversiftgpu\serversiftgpu.cpp(559): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\project\thirdpartylib\siftgpu\src\serversiftgpu\serversiftgpu.cpp(768): warning C4838: 'int'에서 'unsigned int'(으)로의 변환에는 축소 변환이 필요합니다.
+  ShaderMan.cpp
+e:\project\thirdpartylib\siftgpu\src\siftgpu\programglsl.h(68): warning C4312: '형식 캐스트': 'GLuint'에서 더 큰 'void *'(으)로의 변환입니다.
+  SiftGPU.cpp
+e:\project\thirdpartylib\siftgpu\src\siftgpu\programglsl.h(68): warning C4312: '형식 캐스트': 'GLuint'에서 더 큰 'void *'(으)로의 변환입니다.
+e:\project\thirdpartylib\siftgpu\src\siftgpu\siftgpu.cpp(1372): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SiftMatch.cpp
+e:\project\thirdpartylib\siftgpu\src\siftgpu\programglsl.h(68): warning C4312: '형식 캐스트': 'GLuint'에서 더 큰 'void *'(으)로의 변환입니다.
+  SiftMatchCU.cpp
+  SiftPyramid.cpp
+  코드를 생성하고 있습니다...
+     ../../lib/SIFTGPU.lib 라이브러리 및 ../../lib/SIFTGPU.exp 개체를 생성하고 있습니다.
+  SiftGPU_CUDA_Enabled.vcxproj -> E:\Project\ThirdPartyLib\SiftGPU\msvc\SiftGPU\..\..\bin\SiftGPU.dll

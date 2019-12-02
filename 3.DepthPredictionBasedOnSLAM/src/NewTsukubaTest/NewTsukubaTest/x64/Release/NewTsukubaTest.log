@@ -1,0 +1,10 @@
+﻿  NewTsukubaTestView.cpp
+CL : warning : detected 'min' and/or 'max' macros and undefined them;
+CL : warning : you may wish to define NOMINMAX before including any windows header
+  코드를 생성하고 있습니다.
+  2 of 3358 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  NewTsukubaTest.vcxproj -> E:\Project\VsiaulSLAM\src\NewTsukubaTest\x64\Release\NewTsukubaTest.exe
+          1개 파일이 복사되었습니다.

@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25B68B70-B74D-3FD4-852A-D14CCE61436C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ORB_SLAM2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ORB_SLAM2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ORB_SLAM2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ORB_SLAM2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ORB_SLAM2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ORB_SLAM2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ORB_SLAM2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ORB_SLAM2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ORB_SLAM2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";ORB_SLAM2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";ORB_SLAM2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_videostab310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_superres310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_stitching310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_shape310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_photo310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_objdetect310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_calib3d310d.lib;..\Thirdparty\Pangolin\build\src\Release\pangolin.lib;..\Thirdparty\DBoW2\lib\Release\DBoW2.lib;..\Thirdparty\g2o\build\Release\g2o.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_features2d310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_ml310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_highgui310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_videoio310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_imgcodecs310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_flann310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_video310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_imgproc310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_core310d.lib;opengl32.lib;glu32.lib;..\Thirdparty\Pangolin\build\external\glew\lib\glewd.lib;..\Thirdparty\Pangolin\build\external\libpng\lib\libpng16_staticd.lib;..\Thirdparty\Pangolin\build\external\zlib\lib\zlibstaticd.lib;..\Thirdparty\Pangolin\build\external\libjpeg\lib\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/Debug/ORB_SLAM2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/Debug/ORB_SLAM2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";ORB_SLAM2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";ORB_SLAM2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opencv\3.1.0\opencv\build\lib\Release\opencv_videostab310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_superres310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_stitching310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_shape310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_photo310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_objdetect310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_calib3d310.lib;..\Thirdparty\Pangolin\build\src\Release\pangolin.lib;..\Thirdparty\DBoW2\lib\Release\DBoW2.lib;..\Thirdparty\g2o\build\Release\g2o.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_features2d310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_ml310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_highgui310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_videoio310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_imgcodecs310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_flann310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_video310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_imgproc310.lib;C:\opencv\3.1.0\opencv\build\lib\Release\opencv_core310.lib;opengl32.lib;glu32.lib;..\Thirdparty\Pangolin\build\external\glew\lib\glew.lib;..\Thirdparty\Pangolin\build\external\libpng\lib\libpng16_static.lib;..\Thirdparty\Pangolin\build\external\zlib\lib\zlibstatic.lib;..\Thirdparty\Pangolin\build\external\libjpeg\lib\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/Release/ORB_SLAM2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/Release/ORB_SLAM2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";ORB_SLAM2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";ORB_SLAM2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_videostab310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_superres310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_stitching310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_shape310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_photo310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_objdetect310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_calib3d310d.lib;..\Thirdparty\Pangolin\build\src\Release\pangolin.lib;..\Thirdparty\DBoW2\lib\Release\DBoW2.lib;..\Thirdparty\g2o\build\Release\g2o.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_features2d310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_ml310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_highgui310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_videoio310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_imgcodecs310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_flann310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_video310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_imgproc310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_core310d.lib;opengl32.lib;glu32.lib;_glew-NOTFOUND;_libpng-NOTFOUND;_zlib-NOTFOUND;..\Thirdparty\Pangolin\build\external\libjpeg\lib\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/MinSizeRel/ORB_SLAM2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/MinSizeRel/ORB_SLAM2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";ORB_SLAM2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";ORB_SLAM2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Now\Visual-inertial-SLAM\orbslam-windows-master;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\eigen;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\include;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\external\glew\include;C:\opencv\3.1.0\opencv\build;C:\opencv\3.1.0\opencv\sources\include;C:\opencv\3.1.0\opencv\sources\include\opencv;C:\opencv\3.1.0\opencv\sources\modules\core\include;C:\opencv\3.1.0\opencv\sources\modules\flann\include;C:\opencv\3.1.0\opencv\sources\modules\imgproc\include;C:\opencv\3.1.0\opencv\sources\modules\ml\include;C:\opencv\3.1.0\opencv\sources\modules\photo\include;C:\opencv\3.1.0\opencv\sources\modules\video\include;C:\opencv\3.1.0\opencv\sources\modules\imgcodecs\include;C:\opencv\3.1.0\opencv\sources\modules\shape\include;C:\opencv\3.1.0\opencv\sources\modules\videoio\include;C:\opencv\3.1.0\opencv\sources\modules\highgui\include;C:\opencv\3.1.0\opencv\sources\modules\objdetect\include;C:\opencv\3.1.0\opencv\sources\modules\superres\include;C:\opencv\3.1.0\opencv\sources\modules\ts\include;C:\opencv\3.1.0\opencv\sources\modules\features2d\include;C:\opencv\3.1.0\opencv\sources\modules\calib3d\include;C:\opencv\3.1.0\opencv\sources\modules\stitching\include;C:\opencv\3.1.0\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_videostab310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_superres310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_stitching310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_shape310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_photo310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_objdetect310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_calib3d310d.lib;..\Thirdparty\Pangolin\build\src\Release\pangolin.lib;..\Thirdparty\DBoW2\lib\Release\DBoW2.lib;..\Thirdparty\g2o\build\Release\g2o.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_features2d310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_ml310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_highgui310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_videoio310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_imgcodecs310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_flann310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_video310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_imgproc310d.lib;C:\opencv\3.1.0\opencv\build\lib\Debug\opencv_core310d.lib;opengl32.lib;glu32.lib;_glew-NOTFOUND;_libpng-NOTFOUND;_zlib-NOTFOUND;..\Thirdparty\Pangolin\build\external\libjpeg\lib\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/RelWithDebInfo/ORB_SLAM2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/RelWithDebInfo/ORB_SLAM2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Now/Visual-inertial-SLAM/orbslam-windows-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\opencv\3.1.0\opencv\build\OpenCVConfig-version.cmake;C:\opencv\3.1.0\opencv\build\OpenCVConfig.cmake;C:\opencv\3.1.0\opencv\build\OpenCVModules.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinConfig.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinConfigVersion.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinTargets.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\cmake_modules\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Now/Visual-inertial-SLAM/orbslam-windows-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\opencv\3.1.0\opencv\build\OpenCVConfig-version.cmake;C:\opencv\3.1.0\opencv\build\OpenCVConfig.cmake;C:\opencv\3.1.0\opencv\build\OpenCVModules.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinConfig.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinConfigVersion.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinTargets.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\cmake_modules\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Now/Visual-inertial-SLAM/orbslam-windows-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\opencv\3.1.0\opencv\build\OpenCVConfig-version.cmake;C:\opencv\3.1.0\opencv\build\OpenCVConfig.cmake;C:\opencv\3.1.0\opencv\build\OpenCVModules.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinConfig.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinConfigVersion.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinTargets.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\cmake_modules\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Now/Visual-inertial-SLAM/orbslam-windows-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Now/Visual-inertial-SLAM/orbslam-windows-master -BD:/Now/Visual-inertial-SLAM/orbslam-windows-master/build --check-stamp-file D:/Now/Visual-inertial-SLAM/orbslam-windows-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\opencv\3.1.0\opencv\build\OpenCVConfig-version.cmake;C:\opencv\3.1.0\opencv\build\OpenCVConfig.cmake;C:\opencv\3.1.0\opencv\build\OpenCVModules.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinConfig.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinConfigVersion.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\Thirdparty\Pangolin\build\src\PangolinTargets.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeCXXCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeRCCompiler.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\3.16.0-rc1\CMakeSystem.cmake;D:\Now\Visual-inertial-SLAM\orbslam-windows-master\cmake_modules\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\System.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Tracking.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\LocalMapping.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\LoopClosing.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\ORBextractor.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\ORBmatcher.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\FrameDrawer.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Converter.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapPoint.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\KeyFrame.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Map.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\MapDrawer.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Optimizer.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\PnPsolver.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Frame.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\KeyFrameDatabase.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Sim3Solver.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Initializer.cc" />
+    <ClCompile Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\src\Viewer.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Now\Visual-inertial-SLAM\orbslam-windows-master\build\ZERO_CHECK.vcxproj">
+      <Project>{D99F74BA-ED9B-30BD-9CFE-40662E8DF907}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

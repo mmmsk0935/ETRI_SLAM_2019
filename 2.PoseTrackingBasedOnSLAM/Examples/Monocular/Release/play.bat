@@ -1,0 +1,1 @@
+mono_euroc.exe ORBvoc.txt EuRoC.yaml mav0\cam0\data mav0\cam0\data.txt
